@@ -1,0 +1,24 @@
+.wrapper-footer {
+    position: relative;
+    width: 100%;
+}
+
+.wrapper-footer .container-footer {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-color: black;
+}
+
+.wrapper-footer .container-footer .container-text{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.wrapper-footer .container-footer .container-text .footer-text {
+    color: white;
+    font-size: 1.2em;
+}

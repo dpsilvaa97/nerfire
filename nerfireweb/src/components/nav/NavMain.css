@@ -1,0 +1,405 @@
+
+:root {
+  --navMain-bg-color: rgba(168, 167, 167, 0.137);
+  --navMain-position: absolute;
+  --navMain-border: none;
+}
+
+
+.header-wrapper {
+  width: 100%;
+  z-index: 1000;
+  user-select: none;
+  background-color: var(--navMain-bg-color);
+  position: var(--navMain-position);
+  border: var(--navMain-border);
+}
+
+.header-wrapper .nav-wrapper {
+  display: table;
+  table-layout: auto;
+  /*fixed*/
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.048) 10%, rgba(179, 155, 155, 0.157) 15%, rgba(246, 246, 246, 0.267) 30%),linear-gradient(to right, rgba(240, 236, 236, 0.082), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15));*/
+  color: white;
+}
+
+.header-wrapper .nav-wrapper .left-container {
+  display: table-cell;
+  vertical-align: top;
+  height: 100%;
+  width: 20%;
+  min-width: 5em;
+}
+
+.header-wrapper .nav-wrapper .left-container .left-container-menu {
+  outline: none;
+
+}
+
+.header-wrapper .nav-wrapper .left-container .left-container-menu>* {}
+
+.header-wrapper .nav-wrapper .center-container {
+  height: 100%;
+  width: 60%;
+  display: table-cell;
+  vertical-align: top;
+  margin: auto;
+}
+
+.header-wrapper .nav-wrapper .center-container .center-drawer {
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+
+
+  vertical-align: top;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.header-wrapper .nav-wrapper .center-container .center-drawer .logo-wrapper {
+  height: 2.5vmax;
+  min-height: 1.5em;
+  width: 100%;
+  max-width: 4vw;
+  min-width: 3em;
+
+  top: 10%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+}
+
+.header-wrapper .nav-wrapper .right-container {
+  display: table-cell;
+  height: 100%;
+  width: 20%;
+  overflow-x: hidden;
+  padding-right: 17px;
+
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex {
+  width: 100%;
+  height: 100%;
+
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+
+  -ms-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+
+
+  vertical-align: top;
+  text-align: center;
+  justify-content: center;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex>div {
+  margin: 0.5em;
+  vertical-align: top;
+  text-align: center;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .lang-block {
+  margin-top: 1.8vh;
+  margin-right: 10%;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .lang-block .lang-block-avatar {
+  position: relative;
+  width: 1.4vmax;
+  height: 1.4vmax;
+  min-width: 0.8em;
+  min-height: 0.8em;
+  cursor: pointer;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .profile-block {
+  margin-top: 1.5vh;
+  margin-right: 10%;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .profile-block .profile-block-avatar {
+  position: relative;
+  width: 1.8vmax;
+  height: 1.8vmax;
+  min-width: 1.2em;
+  min-height: 1.2em;
+  cursor: pointer;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .visitor-block {
+  margin-top: 1.2vh;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .visitor-block>* {
+  display: block;
+}
+
+
+.header-wrapper .nav-wrapper .right-container .right-flex .visitor-block .visitor-block-text1 {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.8vmax;
+  background-color: rgba(136, 135, 216, 0.144);
+  outline: none;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .visitor-block .visitor-block-text2 {
+  width: 100%;
+  line-height: 0.8vh;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .visitor-block .visitor-block-text2>* {
+  font-size: 0.7vmax;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .visitor-block .visitor-block-text2 .visitor-block-signup1 {
+  color: rgb(54, 53, 53);
+  font-size: 0.6vmax;
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .visitor-block .visitor-block-text2 .visitor-block-signup2 {
+  cursor: pointer;
+  color: white;
+
+}
+
+.header-wrapper .nav-wrapper .right-container .right-flex .visitor-block .visitor-block-text2 .visitor-block-signup2:hover {
+  color: rgba(98, 92, 92, 0.911);
+}
+
+
+
+
+
+
+.lang-wrapper {
+  display: table;
+  table-layout: auto;
+}
+
+.lang-wrapper .lang-option {
+  cursor: pointer;
+  display: table-cell;
+  vertical-align: top;
+  padding: 1.5% 0.5vw;
+  padding-bottom: 1vw;
+}
+
+.lang-wrapper .lang-option>* {
+  width: 1.2vmax;
+  height: 1.2vmax;
+  min-width: 0.8em;
+  min-height: 0.8em;
+  margin-top: 15%;
+}
+
+.lang-wrapper .lang-expand-arrow {
+  position: absolute;
+  text-align: center;
+  margin-top: -0.6em;
+  margin-left: 45%;
+  z-index: 2000;
+}
+
+.lang-wrapper .lang-expand-arrow>* {
+  font-size: 1.2vmax;
+  background-color: rgba(211, 207, 207, 0.397);
+  outline: none;
+}
+
+.lang-wrapper .lang-expand-flags {
+  /*  padding-top: 1.5vh; */
+  position: relative;
+  width: 100%;
+}
+
+
+
+.profile-wrapper {
+  position: relative;
+  width: 14em;
+  height: 14em;
+}
+
+
+.profile-wrapper .profile-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-wrapper .profile-container .profile-divider {
+  position: relative;
+  margin-top: 25%;
+}
+
+.profile-wrapper .profile-container .profile-block-image {
+  position: relative;
+  top: 0.5em;
+  width: 6.2em;
+  height: 6.2em;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0 auto;
+  background-color: rgba(92, 86, 86, 0.397);
+}
+
+.profile-wrapper .profile-container .profile-block-image .profile-image {
+  transition: transform 0.5s;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-wrapper .profile-container .profile-block-image:hover .profile-image {
+  transform: scale(1.1);
+}
+
+.profile-wrapper .profile-container .profile-image-change {
+  position: absolute;
+  z-index: 1100;
+  top: 4em;
+  left: 7.5em;
+}
+
+.profile-wrapper .profile-container .profile-image-change .profile-image-change-fab {
+  outline: none;
+  color: rgb(46, 42, 42);
+  background-color: rgb(255, 255, 255);
+  transform: scale(0.6);
+}
+
+.profile-wrapper .profile-container .profile-image-change .profile-image-change-fab>* {
+  transform: scale(1.3);
+
+}
+
+
+.profile-wrapper .profile-container .profile-image-change:hover>* {
+  color: rgb(78, 32, 228);
+}
+
+.profile-wrapper .profile-container .profile-text {
+  position: relative;
+  top: 1em;
+  width: 100%;
+  color: black;
+  overflow-wrap: break-word;
+  text-align: center;
+
+}
+
+.profile-wrapper .profile-container .profile-text>span {
+  display: block;
+}
+
+.profile-wrapper .profile-container .profile-text .profile-text1 {
+  font-size: 1.1em;
+  padding-left: 0.3em;
+
+}
+
+.profile-wrapper .profile-container .profile-text .profile-text2 {
+  padding-left: 0.5em;
+  font-size: 90%;
+}
+
+.profile-wrapper .profile-container .profile-off-options {
+  position: relative;
+
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+
+  -ms-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+
+  justify-content: center;
+
+}
+
+.profile-wrapper .profile-container .profile-off-options>* {
+  font-size: 0.8em;
+  letter-spacing: normal;
+  /*text-transform: capitalize;*/
+  width: 100%;
+  height: 100%;
+  padding: 0.8em 0;
+  user-select: none;
+  outline: none;
+}
+
+.profile-wrapper .profile-container .profile-off-options .profile-up {}
+
+
+.profile-wrapper .profile-container .profile-off-options .profile-in {}
+
+/*TEST BACKGROUND INJECTION*/
+#testBackground {
+  background-color: rgb(52, 53, 51);
+}
+
+
+
+
+/*
+const profileMenuStyle: CSSProperties = {
+
+};
+const avatarStyle: CSSProperties = {
+positon:relative,
+marginTop: 42%,
+width: 1.3em,
+height: 1.3em,
+cursor: pointer,
+};
+
+const langStyle: CSSProperties = {
+positon: relative,
+marginTop: 5%,
+width: 1.3em,
+height: 1.3em,
+cursor: pointer,
+};
+const langMenuStyle: CSSProperties = {
+positon:relative,
+backgroundColor: rgba(212, 211, 211, 0.602), 
+width:3.9em,
+height: 7em
+};
+const langItemsStyle: CSSProperties = {
+width: 1.5em,
+height: 1.5em,
+cursor: pointer,
+};
+*/

@@ -1,0 +1,61 @@
+{
+    "develop": true,
+    "serverUrl": "https://mineheritage.appspot.com",
+
+    "roles": {
+        "user" : "0",
+        "backoffice" : "1",
+        "admin" : "2"
+    },
+
+    "store":{
+        "loggenIn": false,
+        "sessionToken": "tokenId",
+        "sessionUser": "userId",
+        "sessionRole": "role"
+    },
+    "cookieConfig": { "path": "/" , "domain": ".mineheritage.appspot.com"},
+    "cookies":{
+        "cookieToken": "tokenId",
+        "cookieUser": "userId",
+        "cookieRole": "role"    
+    },
+
+    "localStorage" :{
+        "localProfileImage":"i_see_you",
+        "localLang": "talk_to_kekax"
+    },
+
+    "homePath" : "/",
+    "mineMapPath" : "/minemap",
+    "calendarEventsPath" : "/calendar-events",
+    "newsPath" : "/news",
+    "projectBackPath" : "/projectbackgroung",
+    "newsLetterPath" : "/newsletter/:id",
+    "publicationsPath" : "/publications",
+    "documentsPath" : "/documents",
+    "linksPath" : "/links",
+    "consortiumPath" : "/consortium",
+    "backOfficePath" : "/back-office",
+
+    "wrongPath" : "/kekax",
+
+
+    "langPt": "pt_lang",
+    "langUk": "uk_lang",
+    "langRu": "ru_lang",
+    "langGe": "ge_lang",
+    "langFr": "fr_lang",
+    "langIt": "it_lang",
+    "langEs": "es_lang",
+    "langPl": "pl_lang",
+    "langNl": "nl_lang",
+
+    "map":{
+        "token":"pk.eyJ1IjoiZHBzaWx2YWE5NyIsImEiOiJjazJyeGVvcWwwZmpoM2NvM3VteG1icjdqIn0.-7SYaFF4kjFU-7oMx5OTdQ",
+        "lng": -9.135697499999992,
+        "lat": 38.7078936,
+        "address": "Pç. Comércio, 1100-148 Lisboa, Portugal",
+        "zoom": 12
+    }
+}

@@ -1,0 +1,33 @@
+{
+"appLanguage":{
+    "calendar_lang": "pt",
+    "navbar":{
+        "home":"Inicio",
+        "in":"Entrar",
+        "up":"Registar",
+        "visitor":"Novo visitante? ",
+        "welcome":"Bem Vindo"
+    },
+    "wallpaper":{
+        "slide1":{
+            "text1":"Slide 1 PT",
+            "text2":"Dummy PT Text Slide 1"
+        },
+        "slide2":{
+            "text1":"Slide 2 PT",
+            "text2":"Dummy PT Text Slide 2"
+        },
+        "slide3":{
+            "text1":"Slide 3 PT",
+            "text2":"Dummy PT Text Slide 3"
+        }
+    },
+    "snackKekax" : {
+        "kekaxhot": "Serviço inválido!"
+    },
+    "footer":{
+        "message": "Todos os diretos reservados © MineHeritage"
+    }
+
+}
+}

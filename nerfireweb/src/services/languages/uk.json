@@ -1,0 +1,33 @@
+{
+"appLanguage":{
+    "calendar_lang": "en-GB",
+    "navbar":{
+        "home":"Home",
+        "in":"Sign In",
+        "up":"Sign Up",
+        "visitor":"New visitor? ",
+        "welcome":"Welcome"
+    },
+    "wallpaper":{
+        "slide1":{
+            "text1":"Slide 1 UK",
+            "text2":"Dummy UK Text Slide 1"
+        },
+        "slide2":{
+            "text1":"Slide 2 UK",
+            "text2":"Dummy UK Text Slide 2"
+        },
+        "slide3":{
+            "text1":"Slide 3 UK",
+            "text2":"Dummy UK Text Slide 3"
+        }
+    },
+    "snackKekax" : {
+        "kekaxhot": "Service unavailable!"
+    },
+    "footer":{
+        "message": "All rights reserved © MineHeritage"
+    }
+
+}
+}

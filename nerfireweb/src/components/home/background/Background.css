@@ -1,0 +1,100 @@
+.wallpaper-wrapper{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wallpaper-wrapper .container-slides{
+    position: relative;
+    height: 95vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+.wallpaper-wrapper .container-slides .background-slide{
+    height: 100%;
+    width:100%;
+}
+
+
+
+
+.wallpaper-wrapper .container-clouds{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 300vw;
+    height: 80vh;
+    /*animation: cloudLoop 80s linear infinite;*/
+    animation-duration: 80s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: cloudLoop;
+}
+
+@keyframes cloudLoop{
+    0% {
+        transform: translateZ(0);
+    }
+    100% {
+        transform: translate3d(-50%,0,0);
+    }
+}
+
+
+.wallpaper-wrapper .slide-text{
+    color:rgba(255, 255, 255, 0.685);
+    height: 100%;
+    text-align: center;
+}
+
+.wallpaper-wrapper .slide-text > div{
+    position: relative;
+    top:30%;
+
+}
+
+.wallpaper-wrapper .slide-text .text1{
+    font-size: 4vmax;
+    display: block;
+
+}
+.wallpaper-wrapper .slide-text .text2{
+    font-size: 1.5vmax;
+    padding-top:3vh;
+    display: block;
+
+}
+
+.wallpaper-wrapper .container-arrow{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left:47.5%;
+    z-index: 2000;
+}
+
+.wallpaper-wrapper .container-arrow .arrow-img{
+    width:5vw;
+    height:10vh;
+    cursor: pointer;
+    filter: brightness(0.8);
+    -webkit-filter: brightness(0.8);
+}
+.wallpaper-wrapper .container-arrow .arrow-img:hover{
+    filter: brightness(200%);
+    -webkit-filter: brightness(200%);
+    transform: scale(1.03);
+}
+
+.carousel-indicators{
+    top:85% !important;
+}
