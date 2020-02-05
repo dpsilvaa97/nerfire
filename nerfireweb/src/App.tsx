@@ -42,8 +42,7 @@ export const App: React.FC<IProps> = (props) => {
       <NavMain appLanguage={language} cbSetLanguage={cbSetLanguageFunction} />
       <main>
         <Switch>
-          <Route exact path='/' render={(props) => <Home appLanguage={language} {...props} />} />
-          <Route component={NoMatch} />
+          <Route path={GeneralServices.homePath} render={(props) => <Home appLanguage={language} {...props} />} />
         </Switch>
       </main>
       <Footer appLanguage={language}/>

@@ -105,13 +105,11 @@ export class NavMain extends Component<IProps, IStats> {
             document.documentElement.style.setProperty("--navMain-position", "absolute");
             document.documentElement.style.setProperty("--navMain-bg-color", "rgba(168, 167, 167, 0.137)");
             document.documentElement.style.setProperty("--navMain-border", "none");
-
-
         } else {
+            this.props.history.push(GeneralServices.homePath)
             document.documentElement.style.setProperty("--navMain-position", "relative");
             document.documentElement.style.setProperty("--navMain-bg-color", "rgba(81, 83, 48, 0.3)");
             document.documentElement.style.setProperty("--navMain-border", "1px solid #c0c0c0");
-
         }
         //--GET ROUTING TO DECLARE NAVBAR POSITION ON HARD LINKING (FIRST PAGE)
 
