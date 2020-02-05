@@ -22,6 +22,15 @@
             "text2":"Dummy UK Text Slide 3"
         }
     },
+    "infoApp": {
+        "drone": {
+            "time": "Painéis Solares (30min -> 12horas)",
+            "sensor": "Câmeras térmicas (reconhecimento de fumo)",
+            "frequency": "Sensores de captação vento (velocidade e direção)",
+            "mark": "Sensores de proximidade (contornar obstáculos)",
+            "camera": "Repelente sonoro (proteção contra ataques selvagens)"
+        }
+    },
     "snackKekax" : {
         "kekaxhot": "Service unavailable!"
     },

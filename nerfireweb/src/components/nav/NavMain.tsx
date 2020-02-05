@@ -220,7 +220,7 @@ export class NavMain extends Component<IProps, IStats> {
     }
 
     /*BINDED - OPEN SNACKBAR*/
-    handleImpossibleFunction(){
+    handleImpossibleFunction() {
         this.setState({
             snackKekax: {
                 open: true,
@@ -228,7 +228,7 @@ export class NavMain extends Component<IProps, IStats> {
             }
         })
     }
-    
+
 
     render() {
         return (
@@ -242,6 +242,9 @@ export class NavMain extends Component<IProps, IStats> {
                         </div>
                         <div className="center-container">
                             <div className="center-drawer" onClick={this.handleNavigateToHome}>
+                                <div className="text-wrapper">
+                                    <span>NerFire</span>
+                                </div>
                                 <div className='logo-wrapper'>
                                     <img src={logo} style={{ 'width': '100%', 'height': '100%' }} alt='logo app' />
                                 </div>
@@ -262,7 +265,7 @@ export class NavMain extends Component<IProps, IStats> {
                         </div>
                     </nav>
 
-                    <Popper style={{ 'marginTop': '5.5vh', 'marginLeft': '-4em' }} anchorEl={this.langMenuRef.current} open={this.state.langMenu} transition disablePortal>
+                    <Popper style={{ 'marginTop': '5.5vh', 'marginLeft': '-0.5em' }} anchorEl={this.langMenuRef.current} open={this.state.langMenu} transition disablePortal>
                         {({ TransitionProps, placement }: any) => (
                             <Grow {...TransitionProps} style={{ transformOrigin: placement === 'bottom' ? 'center top' : 'center bottom' }}>
                                 <Paper className='lang-wrapper' style={injectLangMenuBackgroundStyle}>
@@ -278,59 +281,7 @@ export class NavMain extends Component<IProps, IStats> {
                                                     <Avatar alt="Lang Logo" src={ukFlag}> </Avatar>
                                                 </Tooltip>
                                             </div>
-                                            <div className='lang-option' onClick={() => this.changeLangHandler(GeneralServices.langRu)}>
-                                                <Tooltip title="Russian" aria-label="Russia" placement="top">
-                                                    <Avatar alt="Lang Logo" src={ruFlag}> </Avatar>
-                                                </Tooltip>
-                                            </div>
-                                            <div className='lang-option' onClick={() => this.changeLangHandler(GeneralServices.langGe)}>
-                                                <Tooltip title="German" aria-label="Germany" placement="top">
-                                                    <Avatar alt="Lang Logo" src={geFlag}> </Avatar>
-                                                </Tooltip>
-                                            </div>
-                                            <div className='lang-option' onClick={() => this.changeLangHandler(GeneralServices.langEs)}>
-                                                <Tooltip title="Spanish" aria-label="Spain" placement="top">
-                                                    <Avatar alt="Lang Logo" src={esFlag}> </Avatar>
-                                                </Tooltip>
-                                            </div>
-                                            <div className='lang-option' onClick={() => this.changeLangHandler(GeneralServices.langIt)}>
-                                                <Tooltip title="Italian" aria-label="Italy" placement="top">
-                                                    <Avatar alt="Lang Logo" src={itFlag}> </Avatar>
-                                                </Tooltip>
-                                            </div>
-                                            <div className='lang-option' onClick={() => this.changeLangHandler(GeneralServices.langFr)}>
-                                                <Tooltip title="French" aria-label="France" placement="top">
-                                                    <Avatar alt="Lang Logo" src={frFlag}> </Avatar>
-                                                </Tooltip>
-                                            </div>
-                                            <div>
-                                                <div className="lang-expand-flags" style={this.state.expandLangMenu ? { 'display': 'block' } : { 'display': 'none' }}>
 
-                                                    <div>
-                                                        <div className='lang-option' onClick={() => this.changeLangHandler(GeneralServices.langPl)}>
-                                                            <Tooltip title="Polish" aria-label="Poland" placement="top">
-                                                                <Avatar alt="Lang Logo" src={plFlag}> </Avatar>
-                                                            </Tooltip>
-                                                        </div>
-                                                        <div className='lang-option' onClick={() => this.changeLangHandler(GeneralServices.langNl)}>
-                                                            <Tooltip title="Dutch" aria-label="Netherlands" placement="top">
-                                                                <Avatar alt="Lang Logo" src={nlFlag}> </Avatar>
-                                                            </Tooltip>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="lang-expand-arrow">
-                                                    {!this.state.expandLangMenu ?
-                                                        <IconButton aria-label="expand" size="small" onClick={() => this.handleExpandLangMenu(true)}>
-                                                            <ExpandMoreIcon fontSize="inherit" />
-                                                        </IconButton>
-                                                        :
-                                                        <IconButton aria-label="expand" size="small" onClick={() => this.handleExpandLangMenu(false)}>
-                                                            <ExpandLessIcon fontSize="inherit" />
-                                                        </IconButton>
-                                                    }
-                                                </div>
-                                            </div>
                                         </div>
                                     </ClickAwayListener>
                                 </Paper>
@@ -338,7 +289,7 @@ export class NavMain extends Component<IProps, IStats> {
                         )}
                     </Popper>
                 </header>
-                
+
                 <Snackbar
                     open={this.state.snackKekax.open}
                     ContentProps={{

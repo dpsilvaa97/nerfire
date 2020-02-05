@@ -22,6 +22,15 @@ export interface LangType {
                 text2: string;
             }
         },
+        infoApp: {
+            drone: {
+                time: string;
+                sensor: string;
+                frequency: string;
+                mark: string;
+                camera: string;
+            },
+        },
         snackKekax: {
             kekaxhot: string;
         },

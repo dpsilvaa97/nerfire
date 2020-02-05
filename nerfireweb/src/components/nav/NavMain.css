@@ -70,20 +70,38 @@
   justify-content: center;
   margin: 0 auto;
   cursor: pointer;
+  
+}
+
+.header-wrapper .nav-wrapper .center-container .center-drawer > *{
+  margin: 0 0.5vmax;  
 }
 
 .header-wrapper .nav-wrapper .center-container .center-drawer .logo-wrapper {
   height: 2.5vmax;
-  min-height: 1.5em;
+  min-height: 1.8em;
   width: 100%;
-  max-width: 4vw;
-  min-width: 3em;
+  max-width: 3vw;
+  min-width: 2.5em;
 
   top: 10%;
   overflow: hidden;
   position: relative;
   vertical-align: top;
 }
+
+.header-wrapper .nav-wrapper .center-container .center-drawer .text-wrapper {
+  font-size: 2vmax;
+  letter-spacing: 0.2vmax;
+  
+}
+
+.header-wrapper .nav-wrapper .center-container .center-drawer .text-wrapper span{
+  display: block;
+  padding-top: 5%;
+}
+
+
 
 .header-wrapper .nav-wrapper .right-container {
   display: table-cell;
@@ -206,7 +224,7 @@
   display: table-cell;
   vertical-align: top;
   padding: 1.5% 0.5vw;
-  padding-bottom: 1vw;
+  padding-bottom: 0.5vw;
 }
 
 .lang-wrapper .lang-option>* {
@@ -214,7 +232,7 @@
   height: 1.2vmax;
   min-width: 0.8em;
   min-height: 0.8em;
-  margin-top: 15%;
+  margin-top: 30%;
 }
 
 .lang-wrapper .lang-expand-arrow {
