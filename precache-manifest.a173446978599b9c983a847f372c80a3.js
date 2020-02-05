@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18b8b0c32e1d99905935abec484a1dd6",
+    "revision": "276e4aa02cfc3a60f0d0a454e7740bb3",
     "url": "/nerfire/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nerfire/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "93bdb6adb5dd15d208c3",
+    "revision": "eb9da319db0ae026f729",
     "url": "/nerfire/static/css/main.27f69170.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nerfire/static/js/2.04b464af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "93bdb6adb5dd15d208c3",
-    "url": "/nerfire/static/js/main.c4fcec74.chunk.js"
+    "revision": "eb9da319db0ae026f729",
+    "url": "/nerfire/static/js/main.6d7a3f74.chunk.js"
   },
   {
     "revision": "d715294085d81f6e670c",
