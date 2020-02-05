@@ -76,7 +76,7 @@ export const Background: React.FC<IProps> = (props) => {
                     <Carousel.Caption className='slide-text'>
                         <div>
                             <span className='text1' >{props.appLanguage.appLanguage.wallpaper.slide3.text1}</span>
-                            <span className='text2' >{props.appLanguage.appLanguage.wallpaper.slide3.text2}(</span>
+                            <span className='text2' >{props.appLanguage.appLanguage.wallpaper.slide3.text2}</span>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
