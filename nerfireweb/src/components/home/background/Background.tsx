@@ -1,7 +1,7 @@
 import React from 'react';
 import './Background.css';
 import { Carousel } from 'react-bootstrap';
-import Theme from '../../../assets/images/wallpaper.jpg';
+import Theme from '../../../assets/wallpaper/wallpaper1.jpg';
 import Clouds from '../../../assets/images/clouds.png';
 import { LangType } from '../../../services/languages/LangType';
 
