@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nerfire/static/css/main.27f69170.chunk.css",
-    "main.js": "/nerfire/static/js/main.6d73cb9f.chunk.js",
-    "main.js.map": "/nerfire/static/js/main.6d73cb9f.chunk.js.map",
+    "main.js": "/nerfire/static/js/main.012d32d5.chunk.js",
+    "main.js.map": "/nerfire/static/js/main.012d32d5.chunk.js.map",
     "runtime-main.js": "/nerfire/static/js/runtime-main.8a2e6fcd.js",
     "runtime-main.js.map": "/nerfire/static/js/runtime-main.8a2e6fcd.js.map",
     "static/css/2.47e06e2e.chunk.css": "/nerfire/static/css/2.47e06e2e.chunk.css",
     "static/js/2.3c71d766.chunk.js": "/nerfire/static/js/2.3c71d766.chunk.js",
     "static/js/2.3c71d766.chunk.js.map": "/nerfire/static/js/2.3c71d766.chunk.js.map",
     "index.html": "/nerfire/index.html",
-    "precache-manifest.1bf505e7bf4dec0df950c5b3195e40e3.js": "/nerfire/precache-manifest.1bf505e7bf4dec0df950c5b3195e40e3.js",
+    "precache-manifest.61694ffd39ac0137516930f9b9f2d208.js": "/nerfire/precache-manifest.61694ffd39ac0137516930f9b9f2d208.js",
     "service-worker.js": "/nerfire/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/nerfire/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.27f69170.chunk.css.map": "/nerfire/static/css/main.27f69170.chunk.css.map",
@@ -29,6 +29,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.3c71d766.chunk.js",
     "static/css/main.27f69170.chunk.css",
-    "static/js/main.6d73cb9f.chunk.js"
+    "static/js/main.012d32d5.chunk.js"
   ]
 }
