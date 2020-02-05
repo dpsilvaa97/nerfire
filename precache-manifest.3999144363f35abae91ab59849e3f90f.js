@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "276e4aa02cfc3a60f0d0a454e7740bb3",
+    "revision": "72ef604348a58591e4e122afda0f4770",
     "url": "/nerfire/index.html"
   },
   {
-    "revision": "e95ba72863354c8065ea",
+    "revision": "a05ac9f755646491e09f",
     "url": "/nerfire/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "eb9da319db0ae026f729",
-    "url": "/nerfire/static/css/main.27f69170.chunk.css"
+    "revision": "10c7d01fd83b5ca1c1fd",
+    "url": "/nerfire/static/css/main.bb67035c.chunk.css"
   },
   {
-    "revision": "e95ba72863354c8065ea",
-    "url": "/nerfire/static/js/2.04b464af.chunk.js"
+    "revision": "a05ac9f755646491e09f",
+    "url": "/nerfire/static/js/2.9c54e535.chunk.js"
   },
   {
     "revision": "1fedcf5c84e2f9b04a7e15ecdecddbbe",
-    "url": "/nerfire/static/js/2.04b464af.chunk.js.LICENSE.txt"
+    "url": "/nerfire/static/js/2.9c54e535.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb9da319db0ae026f729",
-    "url": "/nerfire/static/js/main.6d7a3f74.chunk.js"
+    "revision": "10c7d01fd83b5ca1c1fd",
+    "url": "/nerfire/static/js/main.236e7ac4.chunk.js"
   },
   {
     "revision": "d715294085d81f6e670c",
