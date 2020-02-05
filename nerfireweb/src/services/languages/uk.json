@@ -1,42 +1,46 @@
 {
-"appLanguage":{
-    "calendar_lang": "en-GB",
-    "navbar":{
-        "home":"Home",
-        "in":"Sign In",
-        "up":"Sign Up",
-        "visitor":"New visitor? ",
-        "welcome":"Welcome"
-    },
-    "wallpaper":{
-        "slide1":{
-            "text1":"Slide 1 UK",
-            "text2":"Dummy UK Text Slide 1"
+    "appLanguage": {
+        "calendar_lang": "en-GB",
+        "navbar": {
+            "home": "Home",
+            "in": "Sign In",
+            "up": "Sign Up",
+            "visitor": "New visitor? ",
+            "welcome": "Welcome"
         },
-        "slide2":{
-            "text1":"Slide 2 UK",
-            "text2":"Dummy UK Text Slide 2"
+        "wallpaper": {
+            "slide1": {
+                "text1": "Slide 1 UK",
+                "text2": "Dummy UK Text Slide 1"
+            },
+            "slide2": {
+                "text1": "Slide 2 UK",
+                "text2": "Dummy UK Text Slide 2"
+            },
+            "slide3": {
+                "text1": "Slide 3 UK",
+                "text2": "Dummy UK Text Slide 3"
+            }
         },
-        "slide3":{
-            "text1":"Slide 3 UK",
-            "text2":"Dummy UK Text Slide 3"
+        "infoApp": {
+            "drone": {
+                "time": "Painéis Solares (30min -> 12horas)",
+                "sensor": "Câmeras térmicas (reconhecimento de fumo)",
+                "frequency": "Sensores de captação vento (velocidade e direção)",
+                "mark": "Sensores de proximidade (contornar obstáculos)",
+                "camera": "Repelente sonoro (proteção contra ataques selvagens)"
+            },
+            "base": {
+                "mark": "Bases fixas em locais estratégicos conforme autonomia dos drones",
+                "battery": "Carregar bateria dos drones",
+                "communicate": "Comunicação fiável às entidades de combate aos incêndios"
+            }
+        },
+        "snackKekax": {
+            "kekaxhot": "Service unavailable!"
+        },
+        "footer": {
+            "message": "All rights reserved © MineHeritage"
         }
-    },
-    "infoApp": {
-        "drone": {
-            "time": "Painéis Solares (30min -> 12horas)",
-            "sensor": "Câmeras térmicas (reconhecimento de fumo)",
-            "frequency": "Sensores de captação vento (velocidade e direção)",
-            "mark": "Sensores de proximidade (contornar obstáculos)",
-            "camera": "Repelente sonoro (proteção contra ataques selvagens)"
-        }
-    },
-    "snackKekax" : {
-        "kekaxhot": "Service unavailable!"
-    },
-    "footer":{
-        "message": "All rights reserved © MineHeritage"
     }
-
-}
 }

@@ -29,6 +29,11 @@
             "frequency": "Sensores de captação vento (velocidade e direção)",
             "mark": "Sensores de proximidade (contornar obstáculos)",
             "camera": "Repelente sonoro (proteção contra ataques selvagens)"
+        },
+        "base": {
+            "mark": "Bases fixas em locais estratégicos conforme autonomia dos drones",
+            "battery": "Carregar bateria dos drones",
+            "communicate": "Comunicação fiável às entidades de combate aos incêndios"
         }
     },
     "snackKekax" : {

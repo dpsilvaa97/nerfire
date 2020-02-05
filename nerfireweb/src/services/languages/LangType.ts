@@ -30,6 +30,11 @@ export interface LangType {
                 mark: string;
                 camera: string;
             },
+            base: {
+                battery: string;
+                communicate: string;
+                mark: string;
+            },
         },
         snackKekax: {
             kekaxhot: string;

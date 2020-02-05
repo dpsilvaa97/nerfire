@@ -2,3 +2,48 @@
     position: relative;
     width: 100%;
 }
+
+.wrapper-infoApp .container-text-intro{
+    position: relative;
+    width: 90%;
+    margin : 0 auto;
+    font-size: 2.5vmax;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding: 5vmax 0 8vmax 0;
+
+}
+
+.wrapper-infoApp .container-divider-drone{
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(165, 165, 165);
+    padding: 0.1vmax 0;
+}
+
+.wrapper-infoApp .container-text-drone{
+    position: relative;
+    width: 90%;
+    margin : 0 auto 3vmax auto;
+    font-size: 3.5vmax;
+    text-align: center;
+
+}
+
+.wrapper-infoApp .container-divider-base{
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(165, 165, 165);
+    padding: 0.1vmax 0;
+    margin-top: 4vmax;
+}
+
+.wrapper-infoApp .container-text-base{
+    position: relative;
+    width: 90%;
+    margin : 0 auto 3vmax auto;
+    font-size: 3.5vmax;
+    text-align: center;
+}

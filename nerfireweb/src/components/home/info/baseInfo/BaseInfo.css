@@ -1,10 +1,10 @@
-.wrapper-infoApp-drone{
+.wrapper-infoApp-base{
     position: relative;
     width: 100%;
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-list{
-    width: 90%;
+.wrapper-infoApp-base .container-infoApp-base-list{
+    width: 70%;
     height: 100%;
     margin: 0 auto;
 
@@ -17,7 +17,7 @@
     flex-direction: row;
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-list .infoApp-drone-object{
+.wrapper-infoApp-base .container-infoApp-base-list .infoApp-base-object{
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
@@ -26,19 +26,19 @@
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
 
-    width: calc(82%/5);
-    margin: 0 calc(18%/10);
+    width: calc(60%/3);
+    margin: 0 calc(40%/6);
     background-color: rgba(211, 211, 211, 0.178);
     padding: 0.5vmax 0.5vmax;
     min-height: 24vmax;
 
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-list .infoApp-drone-object:hover .infoApp-drone-object-img{
+.wrapper-infoApp-base .container-infoApp-base-list .infoApp-base-object:hover .infoApp-base-object-img{
     transform: scale(1.02);
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-list .infoApp-drone-object .infoApp-drone-object-img{
+.wrapper-infoApp-base .container-infoApp-base-list .infoApp-base-object .infoApp-base-object-img{
     height: 11.5vmax;
     overflow: hidden;
     border-radius: 50%;
@@ -46,12 +46,12 @@
     box-shadow: 0 0 5px #00000048;
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-list .infoApp-drone-object .infoApp-drone-object-img img{
+.wrapper-infoApp-base .container-infoApp-base-list .infoApp-base-object .infoApp-base-object-img img{
     width: 100%;
     height: 100%;
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-list .infoApp-drone-object .infoApp-drone-object-label{
+.wrapper-infoApp-base .container-infoApp-base-list .infoApp-base-object .infoApp-base-object-label{
     width: 100%;
     margin-top:3vmax;
     text-align: center;
@@ -60,7 +60,7 @@
 }
 
 
-.wrapper-infoApp-drone .container-infoApp-drone-display{
+.wrapper-infoApp-base .container-infoApp-base-display{
     position: relative;
     width: 90%;
     margin: 0 auto;
@@ -73,7 +73,7 @@
     flex-direction: row;
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-display >*{
+.wrapper-infoApp-base .container-infoApp-base-display >*{
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
@@ -85,21 +85,21 @@
     min-height: 24vmax;
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-display .infoApp-drone-display-prototype{
+.wrapper-infoApp-base .container-infoApp-base-display .infoApp-base-display-prototype{
 
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-display .infoApp-drone-display-prototype img{
+.wrapper-infoApp-base .container-infoApp-base-display .infoApp-base-display-prototype img{
     width: 100%;
     height: 100%;
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-display .infoApp-drone-display-info{
+.wrapper-infoApp-base .container-infoApp-base-display .infoApp-base-display-info{
     font-size: 1.5vmax;
     height: 25vmax;
 }
 
-.wrapper-infoApp-drone .container-infoApp-drone-display .infoApp-drone-display-info .infoApp-drone-display-info-list{
+.wrapper-infoApp-base .container-infoApp-base-display .infoApp-base-display-info .infoApp-base-display-info-list{
     width: 100%;
     height: 80%;
     margin-top: calc(25*0.1vmax);
