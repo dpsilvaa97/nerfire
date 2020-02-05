@@ -42,13 +42,6 @@ export const BaseInfo: React.FC<IProps> = (props) => {
                 </div>
             </div>
             <div className="container-infoApp-base-display">
-                <div className="infoApp-base-display-info">
-                    <ul className="infoApp-base-display-info-list">
-                        <li>Uso de UHF para comunicação entre drones;</li><br></br>
-                        <li>Voos de drones até 120 metro, de acordo com a ANAC (Autoridade Nacional de Aviação Portuguesa);</li><br></br>
-                        <li>Patrulhas limitadas à autonomia do drone, durante mau tempo e noite.</li><br></br>
-                    </ul>
-                </div>
                 <div className="infoApp-base-display-prototype">
                     <img src={Base} alt="base img"></img>
                 </div>

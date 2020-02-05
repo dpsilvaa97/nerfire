@@ -64,25 +64,22 @@
     position: relative;
     width: 90%;
     margin: 0 auto;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-
-    -ms-flex-direction: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
+    margin-bottom: 6vmax;
 }
 
 .wrapper-infoApp-base .container-infoApp-base-display >*{
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: auto;
 
 
+    /*
     width: calc(93%/2);
     margin: 0 calc(7%/4) 4vmax calc(7%/4);
     background-color: rgba(211, 211, 211, 0.178);
-    min-height: 24vmax;
+    min-height: 15vmax;
+    */
+    min-height: 15vmax;
+    width: 50%;
+    margin: 0 auto;
+
 }
 
 .wrapper-infoApp-base .container-infoApp-base-display .infoApp-base-display-prototype{

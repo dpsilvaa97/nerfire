@@ -10,25 +10,34 @@
     },
     "wallpaper":{
         "slide1":{
-            "text1":"Slide 1 PT",
-            "text2":"Dummy PT Text Slide 1"
+            "text1": "Bem-vindo ao NerFire",
+            "text2":"Serviço de prevenção de incêndios"
         },
         "slide2":{
-            "text1":"Slide 2 PT",
-            "text2":"Dummy PT Text Slide 2"
+            "text1":"Drones e bases para proteger terrenos",
+            "text2":"Emparelhados com painéis solares e IA"
         },
         "slide3":{
-            "text1":"Slide 3 PT",
-            "text2":"Dummy PT Text Slide 3"
+            "text1":"Simulação da área coberta",
+            "text2":"Ajudar o utilizador em decisões de risco"
         }
+    },
+    "about":{
+        "1": "NerFire é uma solução para a prevenção de incêndios.",
+        "2": "Drones a proteger áreas florestais e bases de carregamento com comunicação fiável. O nosso serviço dispõe de inteligência artifical e simulação da área coberta com fins de conservar os espaços verdes."
     },
     "infoApp": {
         "drone": {
             "time": "Painéis Solares (30min -> 12horas)",
-            "sensor": "Câmeras térmicas (reconhecimento de fumo)",
-            "frequency": "Sensores de captação vento (velocidade e direção)",
-            "mark": "Sensores de proximidade (contornar obstáculos)",
-            "camera": "Repelente sonoro (proteção contra ataques selvagens)"
+            "camera": "Câmeras térmicas (reconhecimento de fumo)",
+            "mark": "Sensores de captação vento (velocidade e direção)",
+            "sensor": "Sensores de proximidade (contornar obstáculos)",
+            "frequency": "Repelente sonoro (proteção contra ataques selvagens)"
+        },
+        "droneInfo": {
+            "1": "Uso de UHF para comunicação entre drones;",
+            "2": "Voos de drones até 120 metro, de acordo com a ANAC (Autoridade Nacional de Aviação Portuguesa);",
+            "3": "Patrulhas limitadas à autonomia do drone, durante mau tempo e noite."
         },
         "base": {
             "mark": "Bases fixas em locais estratégicos conforme autonomia dos drones",

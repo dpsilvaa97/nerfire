@@ -20,9 +20,9 @@ export const InfoApp: React.FC<IProps> = (props) => {
     return (
         <div className="wrapper-infoApp">
             <div className="container-text-intro">
-                <span>NerFire é uma solução para a prevenção de incêndios.</span>
+                <span>{props.appLanguage.appLanguage.about[1]}</span>
                 <br></br>
-                <span><b>Drones</b> a proteger áreas florestais e <b>bases</b> de carregamento com comunicação fiável. O nosso serviço dispõe de inteligência artifical e simulação da área coberta com fins de conservar os espaços verdes.</span>
+                <span>{props.appLanguage.appLanguage.about[2]}</span>
             </div>
             <div className="container-divider-drone"></div>
             <div className="container-text-drone">

@@ -10,30 +10,39 @@
         },
         "wallpaper": {
             "slide1": {
-                "text1": "Slide 1 UK",
-                "text2": "Dummy UK Text Slide 1"
+                "text1": "Welcome to NerFire",
+                "text2":"Fire prevention service"
             },
             "slide2": {
-                "text1": "Slide 2 UK",
-                "text2": "Dummy UK Text Slide 2"
+                "text1": "Drones and bases to protect terrains",
+                "text2": "Paired with solar panels and AI"
             },
             "slide3": {
-                "text1": "Slide 3 UK",
-                "text2": "Dummy UK Text Slide 3"
+                "text1": "Simulation of the covered area",
+                "text2": "Help the client in risk decisions"
             }
+        },
+        "about":{
+            "1": "NerFire is a fire prevention solution.",
+            "2": "Drones protecting forest areas and charging bases with reliable communication. Our service offers artificial intelligence and simulation of the covered area in order to conserve green spaces."
         },
         "infoApp": {
             "drone": {
-                "time": "Painéis Solares (30min -> 12horas)",
-                "sensor": "Câmeras térmicas (reconhecimento de fumo)",
-                "frequency": "Sensores de captação vento (velocidade e direção)",
-                "mark": "Sensores de proximidade (contornar obstáculos)",
-                "camera": "Repelente sonoro (proteção contra ataques selvagens)"
+                "time": "Solar panels (30min -> 12hours)",
+                "camera": "Thermal cameras (smoke recognition)",
+                "mark": "Wind pickup sensors (speed and direction)",
+                "sensor": "Proximity sensors (circumvent obstacles)",
+                "frequency": "Sound repellent (protection against wild attacks)"
+            },
+            "droneInfo": {
+                "1": "Use of UHF for communication between drones;",
+                "2": "Drone flights up to 120 meters, according to ANAC (Portuguese National Aviation Authority);",
+                "3": "Patrols limited to the drone's autonomy during bad weather and night."
             },
             "base": {
-                "mark": "Bases fixas em locais estratégicos conforme autonomia dos drones",
-                "battery": "Carregar bateria dos drones",
-                "communicate": "Comunicação fiável às entidades de combate aos incêndios"
+                "mark": "Bases strategically positioned according to drone autonomy",
+                "battery": "Charge drone battery",
+                "communicate": "Reliable communication to fire-fighting entities"
             }
         },
         "snackKekax": {

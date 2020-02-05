@@ -66,9 +66,9 @@ export const DroneInfo: React.FC<IProps> = (props) => {
                 </div>
                 <div className="infoApp-drone-display-info">
                     <ul className="infoApp-drone-display-info-list">
-                        <li>Uso de UHF para comunicação entre drones;</li><br></br>
-                        <li>Voos de drones até 120 metro, de acordo com a ANAC (Autoridade Nacional de Aviação Portuguesa);</li><br></br>
-                        <li>Patrulhas limitadas à autonomia do drone, durante mau tempo e noite.</li><br></br>
+                        <li>{props.appLanguage.appLanguage.infoApp.droneInfo[1]}</li><br></br>
+                        <li>{props.appLanguage.appLanguage.infoApp.droneInfo[2]}</li><br></br>
+                        <li>{props.appLanguage.appLanguage.infoApp.droneInfo[3]}</li><br></br>
                     </ul>
                 </div>
             </div>

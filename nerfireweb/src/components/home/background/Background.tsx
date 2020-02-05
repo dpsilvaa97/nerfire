@@ -53,8 +53,8 @@ export const Background: React.FC<IProps> = (props) => {
                     </div>
                     <Carousel.Caption className='slide-text'>
                         <div>
-                            <span className='text1'>Very cool Drones</span>
-                            <span className='text2' >power asf</span>
+                            <span className='text1'>{props.appLanguage.appLanguage.wallpaper.slide1.text1}</span>
+                            <span className='text2' >{props.appLanguage.appLanguage.wallpaper.slide1.text2}</span>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -64,8 +64,8 @@ export const Background: React.FC<IProps> = (props) => {
                     </div>
                     <Carousel.Caption className='slide-text'>
                         <div>
-                            <span className='text1'> We got bases too xD</span>
-                            <span className='text2' >triangle biatch</span>
+                            <span className='text1'>{props.appLanguage.appLanguage.wallpaper.slide2.text1}</span>
+                            <span className='text2' >{props.appLanguage.appLanguage.wallpaper.slide2.text2}</span>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -75,8 +75,8 @@ export const Background: React.FC<IProps> = (props) => {
                     </div>
                     <Carousel.Caption className='slide-text'>
                         <div>
-                            <span className='text1' >We'r broke after production</span>
-                            <span className='text2' >Please buy ;(</span>
+                            <span className='text1' >{props.appLanguage.appLanguage.wallpaper.slide3.text1}</span>
+                            <span className='text2' >{props.appLanguage.appLanguage.wallpaper.slide3.text2}(</span>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

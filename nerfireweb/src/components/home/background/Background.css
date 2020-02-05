@@ -58,18 +58,18 @@
 
 .wallpaper-wrapper .slide-text > div{
     position: relative;
-    top:30%;
+    top:35%;
 
 }
 
 .wallpaper-wrapper .slide-text .text1{
-    font-size: 4vmax;
+    font-size: 5vmax;
     display: block;
 
 }
 .wallpaper-wrapper .slide-text .text2{
     font-size: 1.5vmax;
-    padding-top:3vh;
+    padding-top:2vh;
     display: block;
 
 }

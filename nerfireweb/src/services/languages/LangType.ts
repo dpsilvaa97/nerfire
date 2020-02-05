@@ -22,6 +22,10 @@ export interface LangType {
                 text2: string;
             }
         },
+        about:{
+            1: string;
+            2: string;
+        },
         infoApp: {
             drone: {
                 time: string;
@@ -29,6 +33,11 @@ export interface LangType {
                 frequency: string;
                 mark: string;
                 camera: string;
+            },
+            droneInfo: {
+                1: string;
+                2: string;
+                3: string;
             },
             base: {
                 battery: string;
