@@ -28,7 +28,6 @@
 
     width: calc(82%/5);
     margin: 0 calc(18%/10);
-    background-color: rgba(211, 211, 211, 0.178);
     padding: 0.5vmax 0.5vmax;
     min-height: 24vmax;
 
@@ -81,7 +80,7 @@
 
     width: calc(93%/2);
     margin: 0 calc(7%/4) 4vmax calc(7%/4);
-    background-color: rgba(211, 211, 211, 0.178);
+    /*background-color: rgba(211, 211, 211, 0.178);*/
     min-height: 24vmax;
 }
 
