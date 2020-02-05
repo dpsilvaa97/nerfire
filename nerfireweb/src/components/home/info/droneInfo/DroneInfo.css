@@ -1,0 +1,99 @@
+.wrapper-infoApp-drone{
+    position: relative;
+    width: 100%;
+}
+
+.wrapper-infoApp-drone .container-infoApp-drone-list{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin-top:2vmax;
+}
+
+.wrapper-infoApp-drone .container-infoApp-drone-list .infoApp-drone-object{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+    width: calc(82%/5);
+    margin: 0 calc(18%/10);
+    background-color: rgba(211, 211, 211, 0.178);
+    padding: 0.5vmax 0.5vmax;
+    min-height: 24vmax;
+
+}
+
+.wrapper-infoApp-drone .container-infoApp-drone-list .infoApp-drone-object:hover .infoApp-drone-object-img{
+    transform: scale(1.02);
+}
+
+.wrapper-infoApp-drone .container-infoApp-drone-list .infoApp-drone-object .infoApp-drone-object-img{
+    height: 11.5vmax;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 2vmax;
+    box-shadow: 0 0 5px #00000048;
+}
+
+.wrapper-infoApp-drone .container-infoApp-drone-list .infoApp-drone-object .infoApp-drone-object-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper-infoApp-drone .container-infoApp-drone-list .infoApp-drone-object .infoApp-drone-object-label{
+    width: 100%;
+    margin-top:3vmax;
+    text-align: center;
+    font-size:1vmax;
+    
+}
+
+
+.wrapper-infoApp-drone .container-infoApp-drone-display{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.wrapper-infoApp-drone .container-infoApp-drone-display >*{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+
+
+    width: calc(93%/2);
+    margin: 4vmax calc(7%/4) 4vmax calc(7%/4);
+    background-color: rgba(211, 211, 211, 0.178);
+    min-height: 24vmax;
+}
+
+.wrapper-infoApp-drone .container-infoApp-drone-display .infoApp-drone-display-prototype{
+
+}
+
+.wrapper-infoApp-drone .container-infoApp-drone-display .infoApp-drone-display-prototype img{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper-infoApp-drone .container-infoApp-drone-display .infoApp-drone-display-info{
+}

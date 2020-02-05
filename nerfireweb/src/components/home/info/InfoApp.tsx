@@ -8,6 +8,7 @@ import Mark from '../../../assets/drone/mark.png';
 import Camera from '../../../assets/drone/camera.png';
 import Drone from '../../../assets/drone/prototype.png';
 import { LangType } from '../../../services/languages/LangType';
+import DroneInfo from './droneInfo/DroneInfo';
 
 interface IProps {
     appLanguage: LangType;
@@ -17,48 +18,7 @@ export const InfoApp: React.FC<IProps> = (props) => {
 
     return (
         <div className="wrapper-infoApp">
-            <div className="container-infoApp">
-                <div className="infoApp-object">
-                    <div className="infoApp-object-img">
-                        <img src={Time} alt="drone img"></img>
-                    </div>
-                    <div className="infoApp-object-label">
-                        <span>{props.appLanguage.appLanguage.infoApp.drone.time}</span>
-                    </div>
-                </div>
-                <div className="infoApp-object">
-                    <div className="infoApp-object-img">
-                        <img src={Sensor} alt="drone img"></img>
-                    </div>
-                    <div className="infoApp-object-label">
-                        <span>{props.appLanguage.appLanguage.infoApp.drone.sensor}</span>
-                    </div>
-                </div>
-                <div className="infoApp-object">
-                    <div className="infoApp-object-img">
-                        <img src={Frequency} alt="drone img"></img>
-                    </div>
-                    <div className="infoApp-object-label">
-                        <span>{props.appLanguage.appLanguage.infoApp.drone.frequency}</span>
-                    </div>
-                </div>
-                <div className="infoApp-object">
-                    <div className="infoApp-object-img">
-                        <img src={Mark} alt="drone img"></img>
-                    </div>
-                    <div className="infoApp-object-label">
-                        <span>{props.appLanguage.appLanguage.infoApp.drone.mark}</span>
-                    </div>
-                </div>
-                <div className="infoApp-object">
-                    <div className="infoApp-object-img">
-                        <img src={Camera} alt="drone img"></img>
-                    </div>
-                    <div className="infoApp-object-label">
-                        <span>{props.appLanguage.appLanguage.infoApp.drone.camera}</span>
-                    </div>
-                </div>
-            </div>
+            <DroneInfo appLanguage={props.appLanguage} />
         </div>
     );
 
