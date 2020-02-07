@@ -6,7 +6,7 @@
 
 .wallpaper-wrapper .container-slides{
     position: relative;
-    height: 95vh;
+    height:95vmin;
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
