@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nerfire/static/css/main.5fd96636.chunk.css",
+    "main.css": "/nerfire/static/css/main.1ecc7a4b.chunk.css",
     "main.js": "/nerfire/static/js/main.06417dcb.chunk.js",
     "main.js.map": "/nerfire/static/js/main.06417dcb.chunk.js.map",
     "runtime-main.js": "/nerfire/static/js/runtime-main.8a2e6fcd.js",
@@ -9,10 +9,10 @@
     "static/js/2.9c54e535.chunk.js": "/nerfire/static/js/2.9c54e535.chunk.js",
     "static/js/2.9c54e535.chunk.js.map": "/nerfire/static/js/2.9c54e535.chunk.js.map",
     "index.html": "/nerfire/index.html",
-    "precache-manifest.b671d7bb6c0397bb49717f8076fa84ad.js": "/nerfire/precache-manifest.b671d7bb6c0397bb49717f8076fa84ad.js",
+    "precache-manifest.c83b6c2d90cf2c18b103107d0e55d2e4.js": "/nerfire/precache-manifest.c83b6c2d90cf2c18b103107d0e55d2e4.js",
     "service-worker.js": "/nerfire/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/nerfire/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.5fd96636.chunk.css.map": "/nerfire/static/css/main.5fd96636.chunk.css.map",
+    "static/css/main.1ecc7a4b.chunk.css.map": "/nerfire/static/css/main.1ecc7a4b.chunk.css.map",
     "static/js/2.9c54e535.chunk.js.LICENSE.txt": "/nerfire/static/js/2.9c54e535.chunk.js.LICENSE.txt",
     "static/media/clouds.png": "/nerfire/static/media/clouds.61c4e000.png",
     "static/media/communicate.png": "/nerfire/static/media/communicate.8889176d.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.8a2e6fcd.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.9c54e535.chunk.js",
-    "static/css/main.5fd96636.chunk.css",
+    "static/css/main.1ecc7a4b.chunk.css",
     "static/js/main.06417dcb.chunk.js"
   ]
 }
