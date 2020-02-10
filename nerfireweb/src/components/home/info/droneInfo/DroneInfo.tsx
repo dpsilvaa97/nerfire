@@ -65,11 +65,11 @@ export const DroneInfo: React.FC<IProps> = (props) => {
                     <img src={Drone} alt="drone img"></img>
                 </div>
                 <div className="infoApp-drone-display-info">
-                    <ul className="infoApp-drone-display-info-list">
-                        <li>{props.appLanguage.appLanguage.infoApp.droneInfo[1]}</li><br></br>
-                        <li>{props.appLanguage.appLanguage.infoApp.droneInfo[2]}</li><br></br>
-                        <li>{props.appLanguage.appLanguage.infoApp.droneInfo[3]}</li><br></br>
-                    </ul>
+                    <div className="infoApp-drone-display-info-list">
+                        <span>{props.appLanguage.appLanguage.infoApp.droneInfo[1]}</span><br></br>
+                        <span>{props.appLanguage.appLanguage.infoApp.droneInfo[2]}</span><br></br>
+                        <span>{props.appLanguage.appLanguage.infoApp.droneInfo[3]}</span><br></br>
+                    </div>
                 </div>
             </div>
         </div>

@@ -93,12 +93,25 @@
 .header-wrapper .nav-wrapper .center-container .center-drawer .text-wrapper {
   font-size: 2vmax;
   letter-spacing: 0.2vmax;
-  
 }
 
 .header-wrapper .nav-wrapper .center-container .center-drawer .text-wrapper span{
   display: block;
+  padding-top: 50%;
+}
+
+
+.header-wrapper .nav-wrapper .center-container .center-drawer .text-wrapper span{
+  display: block;
   padding-top: 5%;
+}
+
+@media only screen and (max-width: 850px) {
+
+  .header-wrapper .nav-wrapper .center-container .center-drawer .text-wrapper span{
+    display: block;
+    padding-top: 30%;
+  }
 }
 
 
