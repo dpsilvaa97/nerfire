@@ -28,7 +28,7 @@
         },
         "infoApp": {
             "drone": {
-                "time": "Solar panels (30min -> 12hours)",
+                "time": "Solar panels (30min -> 10hours)",
                 "camera": "Thermal cameras (smoke recognition)",
                 "mark": "Wind pickup sensors (speed and direction)",
                 "sensor": "Proximity sensors (circumvent obstacles)",

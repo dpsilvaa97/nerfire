@@ -28,7 +28,7 @@
     },
     "infoApp": {
         "drone": {
-            "time": "Painéis Solares (30min -> 12horas)",
+            "time": "Painéis Solares (30min -> 10horas)",
             "camera": "Câmeras térmicas (reconhecimento de fumo)",
             "mark": "Sensores de captação vento (velocidade e direção)",
             "sensor": "Sensores de proximidade (contornar obstáculos)",
